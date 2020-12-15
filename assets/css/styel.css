@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Lato', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+/*reset end*/
+.container {
+	width: 1300px;
+	margin: auto;
+}
+.header {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.logo {
+	width: 51%;
+	float: left;
+}
+.menu {
+	width: 49%;
+	float: left;
+}
+.container {
+	padding: 32px 0px;
+}
+.h h1 {
+	font-size: 94px;
+	margin-top: 150px;
+	margin-left: 60px;
+}
+.h p {
+	font-size: 18px;
+	margin-left: 60px;
+	margin-top: 40px;
+	font-family: 'Lato', sans-serif;
+}
+.h button {
+	margin-top: 65px;
+	margin-left: 60px;
+	padding: 15px 35px;
+	border-radius: 100px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #eb3c70;
+	border: none;
+}
+.h button:hover {
+	background-color: #FF226C;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	padding: 0px 15px;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+
+}
+.menu ul li:hover a {
+	border-bottom: 1px solid #000;
+}
+.menu button {
+	padding: 13px 36px;
+	border-radius: 100px;
+	border: none;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+.header {
+	background-image: url('../img/129666570_405308880595551_7160409129906195090_n.jpg');
+	width: 100%;
+	height: 900px;
+	background-position: center center;
+	background-size: cover;
+}
